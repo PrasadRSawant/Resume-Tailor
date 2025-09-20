@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "resume-tailor"
+version = "0.1.0"
+description = "A FastAPI application that uses LangGraph with Google Gemini LLM to tailor resumes based on job opportunity descriptions."
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.111.0"
+uvicorn = {extras = ["standard"], version = "^0.30.1"}
+pydantic = "^2.7.4"
+pydantic-settings = "^2.3.4"
+langgraph = "^0.0.60"
+google-generativeai = "^0.8.0"
+python-dotenv = "^1.0.1"
+python-multipart = "^0.0.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
