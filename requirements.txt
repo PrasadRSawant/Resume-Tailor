@@ -1,0 +1,43 @@
+
+# FastAPI framework for building APIs
+fastapi~=0.111.0
+
+# ASGI server to run FastAPI applications
+uvicorn~=0.30.1
+
+# SQLAlchemy ORM for database interactions
+SQLAlchemy~=2.0.30
+
+# Asynchronous PostgreSQL driver for SQLAlchemy
+asyncpg~=0.29.0
+
+# Database migration tool for SQLAlchemy
+alembic~=1.13.1
+
+# Data validation and settings management using Python type hints
+pydantic~=2.7.2
+pydantic-settings~=2.2.1 # For managing settings with Pydantic
+
+# Loads environment variables from a .env file
+python-dotenv~=1.0.1
+
+# Password hashing for security
+passlib[bcrypt]~=1.7.4
+
+# For JSON Web Token (JWT) implementation
+python-jose[cryptography]~=3.3.0
+
+# HTTPX for making HTTP requests (useful for testing)
+httpx~=0.27.0
+
+# Pytest for running tests
+pytest~=8.2.1
+
+# Pytest plugin for running async tests
+pytest-asyncio~=0.23.6
+
+# For handling CORS (Cross-Origin Resource Sharing)
+python-multipart~=0.0.9
+
+# For enabling async support in SQLAlchemy
+SQLAlchemy[asyncio]
